@@ -1,11 +1,12 @@
 [core]
-	autocrlf = true
+	autocrlf = false
 	bare = false
+	editor = vim
 	filemode = true
 	ignorecase = true
 	logallrefupdates = true
 	repositoryformatversion = 0
-	safecrlf = true
+	safecrlf = false
 	quotepath = true
 #	whitespace = ct-at-eol
 [init]
@@ -43,3 +44,5 @@
 [branch "main"]
 	remote = origin
 	merge = refs/heads/main
+[commit]
+    template = ".gitcommitmsg"
